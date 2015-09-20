@@ -259,7 +259,6 @@ public class quizActivity extends Activity {
 
 
         subConatiner = (LinearLayout) findViewById(R.id.sub_container);
-        // SubScrollView Layout
         subHScrollContainer = (LinearLayout) findViewById(R.id.subHScrollContainer);
 
         currentIndex = 0;
@@ -275,6 +274,7 @@ public class quizActivity extends Activity {
             mAdView.loadAd(adRequest);
         }
     }
+
 
     @Override
     protected void onResume() {
